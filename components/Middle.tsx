@@ -31,7 +31,7 @@ class Middle extends React.Component {
 	render() {
 		return (
 			<div className="col-md-12 text-center">
-				<Button variant="primary" onClick={this.fetchNonce}>
+				<Button variant="primary" onClick={this.imCallingAnAPI}>
 					Click me
 				</Button>
 			</div>
